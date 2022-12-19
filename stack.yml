@@ -31,7 +31,7 @@ services:
       - "9092:9092"
 
   init-kafka:
-    image: "bitnami/kafka:3"
+    image: "bitnami/kafka:3.1.0"
     networks:
       - net0
     deploy:
@@ -71,7 +71,7 @@ services:
       CHAT_MESSAGEs_TOPIC: messages
 
   zilla:
-    image: "ghcr.io/aklivity/zilla:develop-SNAPSHOT"
+    image: "ghcr.io/aklivity/zilla:latest"
     hostname: "zilla"
     command: [ "start", "-v", "-e"]
     volumes:

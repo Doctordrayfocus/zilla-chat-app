@@ -6,7 +6,7 @@
 
     <groupId>io.aklivity</groupId>
     <artifactId>chat-service</artifactId>
-    <version>develop-SNAPSHOT</version>
+    <version>develop-0.9.19</version>
     <inceptionYear>2021</inceptionYear>
 
     <repositories>
@@ -175,7 +175,7 @@
                     <dependency>
                         <groupId>io.aklivity.zilla</groupId>
                         <artifactId>conf</artifactId>
-                        <version>develop-SNAPSHOT</version>
+                        <version>0.9.19</version>
                     </dependency>
                 </dependencies>
             </plugin>
